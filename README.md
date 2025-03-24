@@ -29,6 +29,6 @@
 
 **Start the development server**
 
-      npm start
+      npm run dev
 
       The app will run at http://localhost:3000
