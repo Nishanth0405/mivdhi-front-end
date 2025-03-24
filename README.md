@@ -1,34 +1,34 @@
-Setup Instructions
+**Setup Instructions**
 
-✅ Prerequisites
+      ✅** Prerequisites**
 
-Ensure you have the following installed before proceeding:
+      Ensure you have the following installed before proceeding:
 
-Node.js (v18+)
+      Node.js (v18+)
 
-npm (or yarn as an alternative)
+      npm (or yarn as an alternative)
 
-📌 Installation Steps
+**📌 Installation Steps**
 
-Clone the repository
+      Clone the repository
 
-git clone <repository-link>
-cd frontend
+        git clone <repository-link>
+        cd frontend
 
-Install dependencies
+**Install dependencies**
 
-npm install
+      npm install
 
-Set up environment variables
+**Set up environment variables**
 
-Create a .env file in the project root.
+        Create a .env file in the project root.
 
-Add the following variables:
+        Add the following variables:
 
-REACT_APP_API_URL=https://mividhi-insurance.onrender.com
+        REACT_APP_API_URL=https://mividhi-insurance.onrender.com
 
-Start the development server
+**Start the development server**
 
-npm start
+      npm start
 
-The app will run at http://localhost:3000
+      The app will run at http://localhost:3000
