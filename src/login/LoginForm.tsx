@@ -1,5 +1,5 @@
 import { Alert, Button, Col, Form, Input, Row } from "antd"
-import { Link, useNavigate } from "react-router"
+import { useNavigate } from "react-router"
 import Mivdhi from "../../public/Mivdhi-home-page.png"
 import { useState } from "react"
 import { loginApi } from "../api/api"
@@ -41,7 +41,10 @@ const LoginForm = () => {
   };
 
   const handleSubmit = async () => {
-    // const { email, password } = formValues;
+
+
+    console.log("user info --> ",userInfo);
+    
 
     const userData: TUserInfo = {
       userName: formValues.email,

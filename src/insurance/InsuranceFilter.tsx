@@ -128,7 +128,7 @@ const InsuranceFilterForm = ({ handleFilterChange, setFilter }: TProps) => {
     );
 
     return (
-        <Form form={form} layout="vertical" onFinish={(e) => handleSubmit()}>
+        <Form form={form} layout="vertical" onFinish={() => handleSubmit()}>
             {/* <div className="mb-6 font-bold">Filters:</div>
              */}
             <p>

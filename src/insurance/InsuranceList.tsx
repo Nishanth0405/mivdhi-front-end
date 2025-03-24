@@ -1,4 +1,4 @@
-import { Button, Checkbox, Col, Card, Dropdown, Form, Input, Row, Select, Space, Table, Flex, Spin } from "antd";
+import {  Col, Card, Input, Row, Table, } from "antd";
 import { TInsuranceFilter, TInsuranceList } from "../common/insurance.type";
 import { useState } from "react";
 import InsuranceFilterForm from "./InsuranceFilter";
@@ -7,13 +7,14 @@ import { SearchOutlined } from "@ant-design/icons";
 
 const InsuranceList = ({ insuranceList, onSearch, loader }: TProps) => {
 
-    console.log("loader --> ",loader);
+   
 
     const [filter, setFilter] = useState<TInsuranceFilter>({
         page: 1,
         sortOrder: "ASC",
         minimumPremium: 0,
     });
+    console.log("loader --> ",loader,filter);
 
 
     const handleSearch = (value: string) => {

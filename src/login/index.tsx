@@ -1,10 +1,7 @@
-import { Alert } from "antd"
 import LoginForm from "./LoginForm";
 
 
 const Login = () => {
-
-    const errorMessage = "Invalid Email Id"
 
     return (
         <>
